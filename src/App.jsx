@@ -16,7 +16,7 @@ import tabTennis from './assets/tab tennis.jpg'
 import cricket from './assets/crick 1.jpg'
 import shuttle from './assets/shuttle.jpg'
 import laksh from './assets/laksh.png'
-import endiya from './assets/endiya.png'
+import endiya from './assets/Endiya.png'
 import gopi from './assets/gopichand.png'
 import tabletennis from './assets/tabletennis.jpg'
 
@@ -98,7 +98,7 @@ function App() {
           </div>
         </div>
       </nav>
-      
+
       <div className="container-fluid" id="heading">
 
         <div className="heading container">
