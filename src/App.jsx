@@ -1,0 +1,422 @@
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import './App.css';
+import gameOnImg from './assets/gameon.jpg';
+import tableTennis from './assets/table.jpg';
+import aboutus from './assets/aboutus.png';
+import element from './assets/graphic.png';
+import sport from './assets/sport.png';
+import infographic2 from './assets/Inforgraphic2.png'
+import infographic from './assets/Inforgraphic.png'
+import infographic3 from './assets/Inforgraphic3.png'
+import infographic4 from './assets/Inforgraphic4.png'
+import batminton from './assets/batminton 1.jpg'
+import tabTennis from './assets/tab tennis.jpg'
+import cricket from './assets/crick 1.jpg'
+import shuttle from './assets/shuttle.jpg'
+
+
+
+function App() {
+  return (
+    <>
+      <nav className="navbar navbar-expand-lg navbar-dark bg-dark" id="mainnav">
+        <div className="container">
+          <a className="navbar-brand fw-bold" href="#">GAMEON</a>
+          <button
+            className="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span className="navbar-toggler-icon"></span>
+          </button>
+          <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul className="navbar-nav">
+              <li className="nav-item">
+                <a className="nav-link active" aria-current="page" href="#">
+                  Home
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#about">
+                  About
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#sports">
+                  Sports
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#schedule">
+                  Schedule
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  className="nav-link btn px-3"
+                  style={{ borderRadius: '20px' }}
+                  href="#register"
+                >
+                  Register
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div className="container-fluid" id="heading">
+        <div className="heading container">
+          <div className="darkdiv"></div>
+          <div className="row">
+            <div className="col-12 col-md-6 col-lg-6">
+              <div className="headrow">
+                <h1>GAME ON!</h1>
+                <p>
+                  A sports-driven well-being movement designed for India's
+                  startup ecosystem. Empowering founders and teams to stay
+                  active, healthy, and connected.
+                </p>
+                <button type="button" className="btn btn-primary">
+                  REGISTER NOW
+                </button>
+              </div>
+            </div>
+            <div className="col-12 col-md-6 col-lg-6 d-flex justify-content-center">
+              <div className="card headcard p-3">
+                <img src={batminton} className="card-img-top" alt="Game On" />
+                <div className="card-body pb-0">
+                  <h6 className="fw-bold">Jun 6-7, 2025</h6>
+                  <h1 className="mb-3">Bengaluru</h1>
+                  <p>Coming Soon : Mumbai & Delhi</p>
+                  <button
+                    style={{ width: '100%' }}
+                    type="button"
+                    className="btn btn-primary"
+                  >
+                    Register Now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="container aboutCont py-4">
+        <div className="row">
+          <div className="col-12 col-md-6 col-lg-6">
+            <img src={aboutus} className="about-img" alt="About Us" />
+          </div>
+          <div className="col-12 col-md-6 col-lg-6">
+            <img src={element} className="img-fluid pb-4" alt="Element" />
+            <h4>About Us</h4>
+            <h2 className="py-2">
+              Redefining Success Through Sport
+            </h2>
+            <p>
+              At a time when the startup world is grappling with stress,
+              fatigue, and an always-on culture, Game On! offers a much-needed
+              pause.
+            </p>
+            <hr
+              style={{ border: '1px solid var(--primary-color)' }}
+            />
+            <button type="button" className="btn btn-primary py-3 mt-2">
+              Learn More
+            </button>
+          </div>
+        </div>
+        <div className="cardSection">
+          <div className="row row-cols-1 row-cols-md-3 g-4">
+            <div className="col">
+              <div className="card">
+                <div className="card-body">
+                  <h5 className="card-title">Beyond Business</h5>
+                  <p className="card-text">
+                    Game On! brings the ecosystem together not for deal-making
+                    or networking, but for something more fundamental—shared
+                    energy, movement, and joy.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col">
+              <div className="card">
+                <div className="card-body">
+                  <h5 className="card-title">Mental Wellbeing</h5>
+                  <p className="card-text">
+                    Build mental resilience and emotional strength through the
+                    discipline and focus that competitive sport naturally
+                    cultivates.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col">
+              <div className="card">
+                <div className="card-body">
+                  <h5 className="card-title">Community Connection</h5>
+                  <p className="card-text">
+                    Form authentic relationships with peers, investors, and
+                    enablers in a non-transactional environment where shared
+                    values take center stage.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="container-fluid benefits" id="">
+        <div className="themeflat-container">
+          <h4 className="text-center text-primary">
+            Why Join the Movement
+          </h4>
+          <h2 className="text-white text-center py-2" style={{textTransform: 'uppercase'}}>
+            Game On! is more than an event
+          </h2>
+          <p className="text-center text-white">
+            It's a movement redefining how we
+            approach entrepreneurship and wellbeing in India's startup
+            ecosystem.
+          </p>
+          <div className="row text-white">
+            <div className="col-md-4 benefit-on-left">
+              <div className='benefit-item'>
+                <div className="benefit-content text-end">
+                  <h4 className="title-benefit">Sustainable Performance</h4>
+                  <p className="description-benefit">Founders who balance work and recovery achieve true high performance.</p>
+                </div>
+                <div className="benefit-number"><span className="number wow zoomIn  animated" style={{visibility: "visible"}}>01</span></div>
+              </div>
+              <div className='benefit-item'>
+              <div className="benefit-content text-end">
+                <h4 className="title-benefit">Holistic Leadership</h4>
+                <p className="description-benefit">Developing physical, mental, and emotional potential accelerates growth.</p>
+              </div>
+              <div className="benefit-number"><span className="number wow zoomIn  animated" style={{visibility: "visible"}}>02</span></div>
+
+              </div>
+            </div>
+
+
+            <div className="col-md-4 benefit-center">
+              <div className="benefit-video">
+                <img className="video" src={shuttle} alt="" />
+                <a className="popup-youtube">
+                  <i className="icon-play3"></i>
+                </a>
+                <img className="shape-video-1" src={infographic} alt="" />
+                <img className="shape-video-2" src={infographic2} alt="" />
+                <img className="shape-video-3" src={infographic4} alt="" />
+                <img className="shape-video-4" src={infographic3} alt="" />
+              </div>
+            </div>
+
+
+            <div className="col-md-4 benefit-on-right">
+              <div className="benefit-item">
+              <div className="benefit-number"><span className="number wow zoomIn  animated" style={{visibility: "visible"}}>03</span></div>
+
+                <div className="benefit-content">
+                  <h4 className="title-benefit">Collective Resilience</h4>
+                  <p className="description-benefit">Sharing challenges builds collective wisdom and support.</p>
+                </div>
+              </div>
+              <div className="benefit-item">
+              <div className="benefit-number"><span className="number wow zoomIn  animated" style={{visibility: "visible"}}>04</span></div>
+
+                <div className="benefit-content">
+                  <h4 className="title-benefit">Competitive Advantage</h4>
+                  <p className="description-benefit">Companies led by balanced, resilient founders outperform those driven by burnout culture.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section className="exclusive" id="">
+        <div className="container">
+          <h2 className=" text-center py-2" style={{textTransform: 'uppercase'}}>
+            The Exclusive Experience
+          </h2>
+          <p className="text-center ">
+          Game On! is carefully designed for founders who want to connect authentically while building resilience.
+          </p>
+
+          <div className="row g-4 pt-3 ">
+            <div className="col-lg-3 col-md-6 col-sm-12">
+              <div className="card">
+                <div className="card-body">
+                  <h3 className="card-title pb-1">Curated Community</h3>
+                  <p className="card-text">
+                  Limited to 200 participants from India's most promising startups and investment firms. Every interaction is an opportunity to connect with someone making a difference in the ecosystem.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-6 col-sm-12">
+              <div className="card">
+                <div className="card-body">
+                  <h3 className="card-title pb-1">Founder-First Design</h3>
+                  <p className="card-text">
+                  Every aspect of Game On! is designed with the unique pressures of founder life in mind. Interact with peers who truly understand your journey—no explanation needed.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-6 col-sm-12">
+              <div className="card">
+                <div className="card-body">
+                  <h3 className="card-title pb-1">Wisdom Transfer</h3>
+                  <p className="card-text">
+                  Learn performance psychology techniques from elite athletes and coaches that translate directly to entrepreneurial challenges. These insights aren't available in typical business settings.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-6 col-sm-12">
+              <div className="card">
+                <div className="card-body">
+                  <h3 className="card-title pb-1">Legacy Building</h3>
+                  <p className="card-text">
+                  Be part of establishing a new culture in India's startup ecosystem—one that values sustainable success and human flourishing alongside business metrics.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <div className='container-fluid sportsSec' id='sports'>
+    
+      <div className="container">
+      <h2 className=" text-center py-2" style={{textTransform: 'uppercase'}}>
+          Sports
+        </h2>
+        <p className="text-center ">Game On! is carefully designed for founders who want to connect authentically while building resilience.</p>
+        <div className="row g-4 pt-3 ">
+            <div className="col-lg-4 col-md-6 col-sm-12">
+              <div className="card ">
+                <img src={batminton} className="card-img-top" alt="Table Tennis" />
+                <div className="card-body">
+                  <h3 className="card-title pb-1">Badminton</h3>
+                  <p className="card-text">
+                  Limited to 200 participants from India's most promising startups and investment firms. Every interaction is an opportunity to connect with someone making a difference in the ecosystem.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 col-sm-12">
+              <div className="card">
+              <img src={tabTennis} className="card-img-top" alt="Table Tennis" />
+              <div className="card-body">
+                  <h3 className="card-title pb-1">Table Tennis</h3>
+                  <p className="card-text">
+                  Table tennis develops hand-eye coordination, quick reflexes, and strategic thinking. Like startup pivots, it's about reading patterns and making split-second adjustments.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 col-sm-12">
+              <div className="card">
+              <img src={cricket} className="card-img-top" alt="Table Tennis" />
+              <div className="card-body">
+                  <h3 className="card-title pb-1">Box Cricket</h3>
+                  <p className="card-text">
+                  A team sport that builds collaboration, communication, and leadership. Box cricket teaches resource allocation, role clarity, and the value of combined effort—just like scaling a company.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+      </div>
+
+      </div>
+
+      <section id="schedule">
+        <div className="container ">
+        <h2 className=" text-center py-2 text-white" style={{textTransform: 'uppercase'}}>
+          Event Schedule
+        </h2>
+        <p className="text-center text-white">Bengaluru Edition: June 6-7, 2025 at Lakshyan Academy of Sports</p>
+
+        <h3 className="text-white py-2">Day 1 : Friday, June 6</h3>
+
+        <table className="table table-bordered table-dark">
+        <thead>
+          <tr>
+            <th scope="col-3">Time</th>
+            <th scope="col-6">Activity</th>
+            <th scope="col-3">Venue</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td data-label="Time">1:00 - 2:00 PM</td>
+            <td data-label="Activity">Registration & Kit Collection</td>
+            <td data-label="Venue">Reception Area</td>
+          </tr>
+          <tr>
+            <td data-label="Time">1:00 - 1:45 PM</td>
+            <td data-label="Activity">Inauguration Address by Pullela Gopichand</td>
+            <td data-label="Venue">Badminton Court</td>
+          </tr>
+          <tr>
+          <td data-label="Time">2:00 - 6:00 PM</td>
+            <td data-label="Activity">Tournament Matches (All Sports)</td>
+            <td data-label="Venue">Respective Courts</td>
+          </tr>
+          <tr>
+            <td data-label="Time">6:30 PM</td>
+            <td data-label="Activity">Exclusive Networking Dinner (By Invitation)</td>
+            <td data-label="Venue">TBD</td>
+          </tr>
+        </tbody>
+      </table>
+      <h3 className="text-white py-3">Day 2 : Saturday, June 7</h3>
+
+      <table className="table table-bordered table-dark ">
+      <thead>
+        <tr>
+          <th scope="col-3">Time</th>
+          <th scope="col-6">Activity</th>
+          <th scope="col-3">Venue</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td data-label="Time">10:00 - 6:00 PM</td>
+          <td data-label="Activity">Tournament Matches (All Sports)</td>
+          <td data-label="Venue">Respective Courts</td>
+        </tr>
+        <tr>
+          <td data-label="Time">5:00 - 7:45 PM</td>
+          <td data-label="Activity">Keynote & Media Interactions</td>
+          <td data-label="Venue">Multipurpose Hall</td>
+        </tr>
+        <tr>
+        <td data-label="Time">6:00 - 7:00 PM</td>
+          <td data-label="Activity">Award Ceremony & Closing</td>
+          <td data-label="Venue">Main Court</td>
+        </tr>
+
+      </tbody>
+      </table>
+        </div>        
+      </section>
+    </>
+  );
+}
+
+export default App;
