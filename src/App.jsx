@@ -109,9 +109,9 @@ function App() {
                   startup ecosystem. Empowering founders and teams to stay
                   active, healthy, and connected.
                 </p>
-                <button type="button" className="btn btn-primary">
-                  REGISTER NOW
-                </button>
+                <a href="https://96r19ce4.forms.app/sports-registration-form" target="_blank" rel="noopener noreferrer">
+                  <button className="register-btn">Register Now</button>
+                </a>
               </div>
             </div>
             <div className="col-12 col-md-6 col-lg-6 d-flex justify-content-center">
@@ -121,13 +121,9 @@ function App() {
                   <h6 className="fw-bold">Jun 6-7, 2025</h6>
                   <h1 className="mb-3">Bengaluru</h1>
                   <p>Coming Soon : Mumbai & Delhi</p>
-                  <button
-                    style={{ width: '100%' }}
-                    type="button"
-                    className="btn btn-primary"
-                  >
-                    Register Now
-                  </button>
+                  <a href="https://96r19ce4.forms.app/sports-registration-form" target="_blank" rel="noopener noreferrer">
+                    <button className="register-btn">Register Now</button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -136,26 +132,30 @@ function App() {
       </div>
       <div className="container aboutCont py-4 reveal fade-bottom" id='aboutus'>
         <div className="row">
-          <div className="col-12 col-md-6 col-lg-6 reveal fade-left delay-1">
+          <div className="col-12 col-md-6 col-lg-6">
             <img src={aboutus} className="about-img" alt="About Us" />
           </div>
-          <div className="col-12 col-md-6 col-lg-6 reveal fade-right delay-2">
-            <img src={element} className="img-fluid pb-4" alt="Element" />
+          <div className="col-12 col-md-6 col-lg-6">
+            
             <h4>About Us</h4>
             <h2 className="py-2">
               Redefining Success Through Sport
             </h2>
             <p>
-              At a time when the startup world is grappling with stress,
-              fatigue, and an always-on culture, Game On! offers a much-needed
-              pause.
+            At a time when the startup world is grappling with stress, fatigue, and an always-on culture, Game On! offers a much-needed pause.
+
+It’s not just a break from the hustle — it’s a powerful reminder that true success is built on rhythm, resilience, and recovery.
+
+Through the spirit of sport, we’re bringing founders, investors, and ecosystem enablers back to the fundamentals: focus, teamwork, discipline, and sustainable performance.
+
+Game On! isn’t about competition for its own sake — it’s about redefining what it means to lead, build, and thrive in today’s high-pressure world.
             </p>
             <hr
               style={{ border: '1px solid var(--primary-color)' }}
             />
-            <button type="button" className="btn btn-primary py-3 mt-2">
-              Learn More
-            </button>
+            <a href="https://96r19ce4.forms.app/sports-registration-form" target="_blank" rel="noopener noreferrer">
+              <button className="register-btn">Learn More</button>
+            </a>
           </div>
         </div>
         <div className="cardSection">
@@ -473,7 +473,7 @@ Pullela Gopichand brings decades of experience in building high-performance mind
             ))}
           </div>
         </div>
-        <div className="card testimoniCard p-4 reveal">
+        <div className="card testimoniCard p-4 ">
           <p>"Startup founders operate in high-pressure environments with little downtime. Game On! is a way to bring our ecosystem together, not just to compete, but to connect. Whether on the court or in the boardroom, strong teams thrive on rhythm, trust, and shared experience."</p>
           <h4>— Sateesh Andra, Founding Partner, Endiya Partners</h4>
         </div>
@@ -481,8 +481,59 @@ Pullela Gopichand brings decades of experience in building high-performance mind
 
       </section>
 
-      <section id=''>
+      <section id='advertiser'>
+        <div className="container">
+            <div className="row">
+            <div className="col-5">
+            <img src={aboutus} style={{maxWidth: '100%'}} alt="" />
+          </div>
+          <div className="col-7">
+              <h2 className=" py-2 text-white" style={{textTransform: 'uppercase'}}>
+              Join the Movement
+              </h2>
+              <p className="text-white">Open to early and growth-stage startups, venture capital firms, accelerators, and incubators.
+                Registration is limited to ensure a quality experience. Sign up today!
+                Register Now</p>
+                <a href="https://96r19ce4.forms.app/sports-registration-form" target="_blank" rel="noopener noreferrer">
+                  <button className="register-btn">Register Now</button>
+                </a>
+              <p className="text-white pt-4">For inquiries, please write to <a href="mailto:gameon@endiya.com" style={{color: 'white'}}>gameon@endiya.com</a></p>
+            </div>
+          </div>
+        </div>
+      </section>
 
+      <section id='footer'>
+        <div className="container">
+          <div className="row">
+            <div className="col-4">
+              <h3 className='pb-2'>Game On</h3>
+              <p style={{fontSize: '20px'}}>A first-of-its-kind sports tournament built to promote wellbeing, resilience, and leadership within India's startup ecosystem.</p>
+            <ul className='d-flex gap-3'>
+              <li><a  href="https://www.instagram.com/gameonindia/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+              <li><a href="https://www.linkedin.com/company/gameon-india/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+              <li><a href="https://www.facebook.com/gameonindia/" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+            </ul>
+
+            </div>
+            <div className="col-4">
+              <h3 className='pb-2'>Quick Links</h3>
+              <ul>
+                <li><a href="#aboutus">About</a></li>
+                <li><a href="#sports">Sports</a></li>
+                <li><a href="#schedule">Schedule</a></li>
+                <li><a href="#joinMovement">Register</a></li>
+              </ul>
+            </div>
+            <div className="col-4 contactUs">
+              <h3 className='pb-2'>Contact</h3>
+              <p>Email : <a href="mailto:gameon@endiya.com" >gameon@endiya.com</a></p>
+              <p>Media : <a href="anuradha@moatglobal.com" >anuradha@moatglobal.com</a></p>
+            </div>
+          </div>
+          <hr />
+          <p className='text-center'>&copy; 2025 Game On. | Organized by Endiya Partners & Pullela Gopichand Badminton Academy</p>
+        </div>
       </section>
     </>
   );

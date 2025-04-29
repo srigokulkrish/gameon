@@ -152,28 +152,6 @@ p{
   color: var(--tertiary-color);
 }
 
-.btn{
-  font-family: 'Oswald', sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  letter-spacing: .1em;
-  text-decoration: none;
-  transition: color 0.3s ease;
-  width: fit-content;
-  padding: 10px 20px;
-  border-radius: 5px;
-  background-color: var(--primary-color);
-  color: var(--secondary-color);
-  border:0;
-  cursor: pointer;
-  
-}
-
-.btn:hover{
-  background-color: var(--secondary-color);
-  color: var(--primary-color);
-}
-
 /* About Section Styles */
 
 .about-img {
@@ -555,4 +533,82 @@ h2 {
   border: 0px;
   color: var(--secondary-color);
   box-shadow: var(--secondary-color) 5px 5px;
+}
+
+#advertiser{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: var(--secondary-color);
+  color: var(--tertiary-color);
+}
+
+/* Register button styling */
+.register-btn {
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: .1em;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  width: fit-content;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  border:0;
+  cursor: pointer;
+}
+
+.register-btn:hover {
+  background-color: var(--tertiary-color);
+  color: var(--secondary-color);
+}
+
+#footer{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+#footer .col-4 p{
+  font-size: 20px;
+  line-height: 28px;
+}
+#footer ul{
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#footer ul li{
+  padding-bottom: .5rem;
+}
+
+#footer ul li a{
+  list-style: none;
+  font-family: 'Jost', sans-serif;
+  font-size: 20px;
+  font-weight: 00;
+  text-decoration: none;
+  padding-left: 0;
+  color: var(--secondary-color);
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+#footer ul li a:hover{
+  color: #2E865F;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contactUs a{
+  color: var(--secondary-color);
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+.contactUs a:hover{
+  color: #2E865F;
+  transition: color 0.3s ease;
 }
