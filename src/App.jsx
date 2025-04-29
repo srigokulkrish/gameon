@@ -49,9 +49,7 @@ function App() {
 
   return (
     <>
-
-      <div className="container-fluid" id="heading">
-      <nav className="navbar navbar-expand-lg navbar-dark" id="mainnav">
+            <nav className="navbar navbar-expand-lg navbar-dark" id="mainnav">
         <div className="container">
           <a className="navbar-brand fw-bold" href="#">GAMEON</a>
           <button
@@ -100,6 +98,9 @@ function App() {
           </div>
         </div>
       </nav>
+      
+      <div className="container-fluid" id="heading">
+
         <div className="heading container">
           <div className="darkdiv"></div>
           <div className="row">

@@ -11,10 +11,6 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
-  padding-top: 80px;
-}
-
 p{
   font-family: 'Jost', sans-serif;
 }
@@ -30,7 +26,7 @@ p{
 #mainnav{
   background-color: var(--secondary-color) !important;
   padding: 1.1rem 0;
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   right: 0;
