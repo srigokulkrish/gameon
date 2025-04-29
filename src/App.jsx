@@ -497,9 +497,9 @@ Pullela Gopichand brings decades of experience in building high-performance mind
               <p className="text-white">Open to early and growth-stage startups, venture capital firms, accelerators, and incubators.
                 Registration is limited to ensure a quality experience. Sign up today!
                 Register Now</p>
-                <a href="https://96r19ce4.forms.app/sports-registration-form" target="_blank" rel="noopener noreferrer">
+                {/* <a href="https://96r19ce4.forms.app/sports-registration-form" target="_blank" rel="noopener noreferrer">
                   <button className="register-btn">Register Now</button>
-                </a>
+                </a> */}
               <p className="text-white pt-4">For inquiries, please write to <a href="mailto:gameon@endiya.com" style={{color: 'white'}}>gameon@endiya.com</a></p>
             </div>
           </div>
