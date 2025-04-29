@@ -19,7 +19,7 @@ import laksh from './assets/laksh.png'
 import endiya from './assets/Endiya.png'
 import gopi from './assets/gopichand.png'
 import tabletennis from './assets/tabletennis.jpg'
-
+import logo from './assets/logo.png'
 
 function App() {
   useEffect(() => {
@@ -51,7 +51,9 @@ function App() {
     <>
             <nav className="navbar navbar-expand-lg navbar-dark" id="mainnav">
         <div className="container">
-          <a className="navbar-brand fw-bold" href="#">GAMEON</a>
+          <a className="navbar-brand fw-bold" href="#">
+            <img src={logo} alt="Game On" />
+          </a>
           <button
             className="navbar-toggler"
             type="button"
@@ -385,9 +387,9 @@ Game On! isn't about competition for its own sake — it's about redefining what
         <table className="table table-bordered table-dark">
         <thead>
           <tr>
-            <th scope="col-3">Time</th>
-            <th scope="col-6">Activity</th>
-            <th scope="col-3">Venue</th>
+            <th className="col-3">Time</th>
+            <th className="col-6">Activity</th>
+            <th className="col-3">Venue</th>
           </tr>
         </thead>
         <tbody>
@@ -418,9 +420,9 @@ Game On! isn't about competition for its own sake — it's about redefining what
       <table className="table table-bordered table-dark ">
       <thead>
         <tr>
-          <th scope="col-3">Time</th>
-          <th scope="col-6">Activity</th>
-          <th scope="col-3">Venue</th>
+          <th className="col-3">Time</th>
+          <th className="col-6">Activity</th>
+          <th className="col-3">Venue</th>
         </tr>
       </thead>
       <tbody>

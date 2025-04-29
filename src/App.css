@@ -79,6 +79,12 @@ p{
   color: var(--primary-color) !important;
 }
 
+.navbar-brand img{
+  width: 130px;
+  height: auto;
+  object-fit: cover;
+}
+
 #heading {
   height: 900px;
   background-image: url('./assets/gameon.jpg');
@@ -426,6 +432,14 @@ h2 {
   letter-spacing: .1em;
   text-decoration: none;
   transition: color 0.3s ease;
+}
+
+.table thead tr th.col-3{
+  width: 25% !important;
+}
+
+.table thead tr th.col-6{
+  width: 50% !important;
 }
 
 /* Responsive Table Columns */
