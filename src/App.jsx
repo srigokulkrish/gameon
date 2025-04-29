@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import './App.css';
@@ -15,10 +15,37 @@ import batminton from './assets/batminton 1.jpg'
 import tabTennis from './assets/tab tennis.jpg'
 import cricket from './assets/crick 1.jpg'
 import shuttle from './assets/shuttle.jpg'
-
+import laksh from './assets/laksh.png'
+import endiya from './assets/endiya.png'
+import gopi from './assets/gopichand.png'
 
 
 function App() {
+  useEffect(() => {
+    function revealOnScroll() {
+      const reveals = document.querySelectorAll('.reveal');
+      
+      reveals.forEach((reveal) => {
+        const windowHeight = window.innerHeight;
+        const revealTop = reveal.getBoundingClientRect().top;
+        const revealPoint = 150;
+        
+        if (revealTop < windowHeight - revealPoint) {
+          reveal.classList.add('active');
+        } else {
+          reveal.classList.remove('active');
+        }
+      });
+    }
+    
+    window.addEventListener('scroll', revealOnScroll);
+    // Initial check in case elements are already in view when page loads
+    revealOnScroll();
+    
+    // Clean up event listener
+    return () => window.removeEventListener('scroll', revealOnScroll);
+  }, []);
+
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark" id="mainnav">
@@ -43,7 +70,7 @@ function App() {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#about">
+                <a className="nav-link" href="#aboutus">
                   About
                 </a>
               </li>
@@ -107,12 +134,12 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="container aboutCont py-4">
+      <div className="container aboutCont py-4 reveal fade-bottom" id='aboutus'>
         <div className="row">
-          <div className="col-12 col-md-6 col-lg-6">
+          <div className="col-12 col-md-6 col-lg-6 reveal fade-left delay-1">
             <img src={aboutus} className="about-img" alt="About Us" />
           </div>
-          <div className="col-12 col-md-6 col-lg-6">
+          <div className="col-12 col-md-6 col-lg-6 reveal fade-right delay-2">
             <img src={element} className="img-fluid pb-4" alt="Element" />
             <h4>About Us</h4>
             <h2 className="py-2">
@@ -252,7 +279,7 @@ function App() {
           </p>
 
           <div className="row g-4 pt-3 ">
-            <div className="col-lg-3 col-md-6 col-sm-12">
+            <div className="col-lg-3 col-md-6 col-sm-12 reveal">
               <div className="card">
                 <div className="card-body">
                   <h3 className="card-title pb-1">Curated Community</h3>
@@ -262,7 +289,7 @@ function App() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6 col-sm-12">
+            <div className="col-lg-3 col-md-6 col-sm-12 reveal delay-1">
               <div className="card">
                 <div className="card-body">
                   <h3 className="card-title pb-1">Founder-First Design</h3>
@@ -272,7 +299,7 @@ function App() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6 col-sm-12">
+            <div className="col-lg-3 col-md-6 col-sm-12 reveal delay-2">
               <div className="card">
                 <div className="card-body">
                   <h3 className="card-title pb-1">Wisdom Transfer</h3>
@@ -282,7 +309,7 @@ function App() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6 col-sm-12">
+            <div className="col-lg-3 col-md-6 col-sm-12 reveal delay-3">
               <div className="card">
                 <div className="card-body">
                   <h3 className="card-title pb-1">Legacy Building</h3>
@@ -305,7 +332,7 @@ function App() {
         </h2>
         <p className="text-center ">Game On! is carefully designed for founders who want to connect authentically while building resilience.</p>
         <div className="row g-4 pt-3 ">
-            <div className="col-lg-4 col-md-6 col-sm-12">
+            <div className="col-lg-4 col-md-6 col-sm-12 reveal">
               <div className="card ">
                 <img src={batminton} className="card-img-top" alt="Table Tennis" />
                 <div className="card-body">
@@ -316,7 +343,7 @@ function App() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6 col-sm-12">
+            <div className="col-lg-4 col-md-6 col-sm-12 reveal delay-1">
               <div className="card">
               <img src={tabTennis} className="card-img-top" alt="Table Tennis" />
               <div className="card-body">
@@ -327,7 +354,7 @@ function App() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6 col-sm-12">
+            <div className="col-lg-4 col-md-6 col-sm-12 reveal delay-2">
               <div className="card">
               <img src={cricket} className="card-img-top" alt="Table Tennis" />
               <div className="card-body">
@@ -414,6 +441,48 @@ function App() {
       </tbody>
       </table>
         </div>        
+      </section>
+
+      <section id="joinMovement">
+        <div className="container">
+        <h2 className=" text-center pb-5" style={{textTransform: 'uppercase'}}>
+          The Movement Behind Game On!
+        </h2>
+        <div className="row">
+           <div className="col-12 col-md-6">
+
+              <h3 className='pb-2'>Endiya Partners</h3>
+              <p>Endiya Partners is an early-stage venture capital firm focused on backing India's most promising product startups across Enterprise, Industrial Tech, and Healthcare. With deep domain expertise and extensive experience in entrepreneurship and operations, the Endiya team plays a crucial role in developing scalable businesses.
+
+Game On! reflects Endiya's belief that strong, healthy founders build stronger companies. Supporting founder wellbeing is a key part of the firm's approach, with health and balance seen as essential for long-term success.</p>
+           </div>
+           <div className="col-12 col-md-6">
+
+              <h3 className='pb-2'>Pullela Gopichand Badminton Academy</h3>
+              <p>PGBA, founded in 2004 by All England Open Badminton Champion Pullela Gopichand, is recognized by the Ministry of Sports, Sports Authority of India (SAI), and the Badminton Association of India (BAI). The academy has trained several of the world's leading badminton players and emphasizes mental wellness, recognizing emotional wellbeing as crucial to an athlete's success.
+
+Pullela Gopichand brings decades of experience in building high-performance mindsets both on and off the court to Game On!</p>
+           </div>
+         </div>
+         <div className="infinite-container py-3">
+          <div className="infinite-loop">
+            {[...Array(3)].flatMap(() => [endiya, gopi, laksh]).map((img, idx) => (
+              <div key={idx} className="loop-item">
+                <img src={img} className="img-fluid" alt="loop image" />
+              </div>
+            ))}
+          </div>
+        </div>
+        <div className="card testimoniCard p-4 reveal">
+          <p>"Startup founders operate in high-pressure environments with little downtime. Game On! is a way to bring our ecosystem together, not just to compete, but to connect. Whether on the court or in the boardroom, strong teams thrive on rhythm, trust, and shared experience."</p>
+          <h4>— Sateesh Andra, Founding Partner, Endiya Partners</h4>
+        </div>
+      </div>
+
+      </section>
+
+      <section id=''>
+
       </section>
     </>
   );
