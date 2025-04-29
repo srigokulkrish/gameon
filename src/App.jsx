@@ -18,6 +18,7 @@ import shuttle from './assets/shuttle.jpg'
 import laksh from './assets/laksh.png'
 import endiya from './assets/endiya.png'
 import gopi from './assets/gopichand.png'
+import tabletennis from './assets/tabletennis.jpg'
 
 
 function App() {
@@ -88,7 +89,7 @@ function App() {
                 <a
                   className="nav-link btn px-3"
                   style={{ borderRadius: '20px' }}
-                  href="#register"
+                  href="https://96r19ce4.forms.app/sports-registration-form" target="_blank" rel="noopener noreferrer"
                 >
                   Register
                 </a>
@@ -116,7 +117,7 @@ function App() {
             </div>
             <div className="col-12 col-md-6 col-lg-6 d-flex justify-content-center">
               <div className="card headcard p-3">
-                <img src={batminton} className="card-img-top" alt="Game On" />
+                <img src={tabletennis} className="card-img-top" alt="Game On" />
                 <div className="card-body pb-0">
                   <h6 className="fw-bold">Jun 6-7, 2025</h6>
                   <h1 className="mb-3">Bengaluru</h1>
@@ -150,12 +151,7 @@ Through the spirit of sport, we’re bringing founders, investors, and ecosystem
 
 Game On! isn’t about competition for its own sake — it’s about redefining what it means to lead, build, and thrive in today’s high-pressure world.
             </p>
-            <hr
-              style={{ border: '1px solid var(--primary-color)' }}
-            />
-            <a href="https://96r19ce4.forms.app/sports-registration-form" target="_blank" rel="noopener noreferrer">
-              <button className="register-btn">Learn More</button>
-            </a>
+            
           </div>
         </div>
         <div className="cardSection">
@@ -198,9 +194,13 @@ Game On! isn’t about competition for its own sake — it’s about redefining 
             </div>
           </div>
         </div>
+        <div className="card testimoniCard  p-4 ">
+          <p>"Sport is one of the best teachers of leadership. It builds not just physical endurance, but clarity, discipline, and emotional strength—qualities every entrepreneur needs."</p>
+          <h4>— Pullela Gopichand, Chief National Coach and Trustee Board Member at Endiya Partners</h4>
+        </div>
       </div>
 
-      <div className="container-fluid benefits" id="">
+      <div className="container-fluid benefits" id="movement">
         <div className="themeflat-container">
           <h4 className="text-center text-primary">
             Why Join the Movement
@@ -506,7 +506,7 @@ Pullela Gopichand brings decades of experience in building high-performance mind
       <section id='footer'>
         <div className="container">
           <div className="row">
-            <div className="col-4">
+            <div className="col-lg-4 col-md-4 col-sm-12">
               <h3 className='pb-2'>Game On</h3>
               <p style={{fontSize: '20px'}}>A first-of-its-kind sports tournament built to promote wellbeing, resilience, and leadership within India's startup ecosystem.</p>
             <ul className='d-flex gap-3'>
@@ -516,7 +516,7 @@ Pullela Gopichand brings decades of experience in building high-performance mind
             </ul>
 
             </div>
-            <div className="col-4">
+            <div className="col-lg-4 col-md-4 col-sm-12">
               <h3 className='pb-2'>Quick Links</h3>
               <ul>
                 <li><a href="#aboutus">About</a></li>
@@ -525,10 +525,10 @@ Pullela Gopichand brings decades of experience in building high-performance mind
                 <li><a href="#joinMovement">Register</a></li>
               </ul>
             </div>
-            <div className="col-4 contactUs">
+            <div className="col-lg-4 col-md-4 col-sm-12 contactUs">
               <h3 className='pb-2'>Contact</h3>
               <p>Email : <a href="mailto:gameon@endiya.com" >gameon@endiya.com</a></p>
-              <p>Media : <a href="anuradha@moatglobal.com" >anuradha@moatglobal.com</a></p>
+              <p>Media : <a href="mailto:anuradha@moatglobal.com" >anuradha@moatglobal.com</a></p>
             </div>
           </div>
           <hr />

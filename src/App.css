@@ -201,7 +201,16 @@ h2 {
 .cardSection .card{
   border: 0;
   height: 100%;
+  border: 2px solid black;
+  box-shadow: #c3e92d 5px 5px;
+  transition: all 0.3s ease;
 
+}
+
+.iCard{
+  border: 1px solid black;
+  box-shadow: #c3e92d 5px 5px;
+  transition: all 0.3s ease;
 }
 
 
@@ -215,8 +224,7 @@ h2 {
   padding-top: 100px;
   padding-bottom: 100px;
   background-color: var(--secondary-color);
-  padding-right: 100px;
-  padding-left: 100px;
+
 }
 
 .benefit-video {
