@@ -49,7 +49,7 @@ function App() {
 
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark" id="mainnav">
+      <nav className="navbar navbar-expand-lg navbar-dark" id="mainnav">
         <div className="container">
           <a className="navbar-brand fw-bold" href="#">GAMEON</a>
           <button
@@ -63,8 +63,8 @@ function App() {
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul className="navbar-nav">
+          <div className="collapse navbar-collapse" id="navbarNav">
+            <ul className="navbar-nav ms-auto">
               <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="#">
                   Home
@@ -145,11 +145,11 @@ function App() {
             <p>
             At a time when the startup world is grappling with stress, fatigue, and an always-on culture, Game On! offers a much-needed pause.
 
-It’s not just a break from the hustle — it’s a powerful reminder that true success is built on rhythm, resilience, and recovery.
+It's not just a break from the hustle — it's a powerful reminder that true success is built on rhythm, resilience, and recovery.
 
-Through the spirit of sport, we’re bringing founders, investors, and ecosystem enablers back to the fundamentals: focus, teamwork, discipline, and sustainable performance.
+Through the spirit of sport, we're bringing founders, investors, and ecosystem enablers back to the fundamentals: focus, teamwork, discipline, and sustainable performance.
 
-Game On! isn’t about competition for its own sake — it’s about redefining what it means to lead, build, and thrive in today’s high-pressure world.
+Game On! isn't about competition for its own sake — it's about redefining what it means to lead, build, and thrive in today's high-pressure world.
             </p>
             
           </div>
