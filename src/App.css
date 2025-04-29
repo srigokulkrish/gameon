@@ -434,13 +434,6 @@ h2 {
   transition: color 0.3s ease;
 }
 
-.table thead tr th.col-3{
-  width: 25% !important;
-}
-
-.table thead tr th.col-6{
-  width: 50% !important;
-}
 
 /* Responsive Table Columns */
 @media screen and (max-width: 768px) {

@@ -20,6 +20,10 @@ import endiya from './assets/Endiya.png'
 import gopi from './assets/gopichand.png'
 import tabletennis from './assets/tabletennis.jpg'
 import logo from './assets/logo.png'
+import hsbc from './assets/hsbc.png'
+
+
+
 
 function App() {
   useEffect(() => {
@@ -408,11 +412,6 @@ Game On! isn't about competition for its own sake — it's about redefining what
             <td data-label="Activity">Tournament Matches (All Sports)</td>
             <td data-label="Venue">Respective Courts</td>
           </tr>
-          <tr>
-            <td data-label="Time">6:30 PM</td>
-            <td data-label="Activity">Exclusive Networking Dinner (By Invitation)</td>
-            <td data-label="Venue">TBD</td>
-          </tr>
         </tbody>
       </table>
       <h3 className="text-white py-3">Day 2 : Saturday, June 7</h3>
@@ -470,7 +469,7 @@ Pullela Gopichand brings decades of experience in building high-performance mind
          </div>
          <div className="infinite-container py-3">
           <div className="infinite-loop">
-            {[...Array(3)].flatMap(() => [endiya, gopi, laksh]).map((img, idx) => (
+            {[...Array(3)].flatMap(() => [endiya, gopi, laksh, hsbc]).map((img, idx) => (
               <div key={idx} className="loop-item">
                 <img src={img} className="img-fluid" alt="loop image" />
               </div>
