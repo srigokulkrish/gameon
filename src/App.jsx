@@ -53,7 +53,7 @@ function App() {
 
   return (
     <>
-            <nav className="navbar navbar-expand-lg navbar-dark" id="mainnav">
+            <nav className="navbar navbar-expand-lg navbar-light" id="mainnav">
         <div className="container">
           <a className="navbar-brand fw-bold" href="#">
             <img src={logo} alt="Game On" />

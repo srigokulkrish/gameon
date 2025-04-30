@@ -24,7 +24,7 @@ p{
 }
 
 #mainnav{
-  background-color: var(--secondary-color) !important;
+  background-color: var(--tertiary-color) !important;
   padding: 1.1rem 0;
   position: sticky;
   top: 0;
@@ -80,7 +80,7 @@ p{
 }
 
 .navbar-brand img{
-  width: 130px;
+  width: 320px;
   height: auto;
   object-fit: cover;
 }
