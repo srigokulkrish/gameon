@@ -583,7 +583,7 @@ h2 {
 #footer{
   padding-top: 100px;
   padding-bottom: 100px;
-  background-color: var(--primary-color);
+  background-color: #f9f7f5;
   color: var(--secondary-color);
 }
 
@@ -613,7 +613,7 @@ h2 {
 }
 
 #footer ul li a:hover{
-  color: #2E865F;
+  color: #91c578;
   text-decoration: none;
   transition: color 0.3s ease;
 }
@@ -625,7 +625,10 @@ h2 {
 }
 
 .contactUs a:hover{
-  color: #2E865F;
+  color: #578a3e;
   transition: color 0.3s ease;
 }
 
+.logo2{
+  width: 60%;
+}

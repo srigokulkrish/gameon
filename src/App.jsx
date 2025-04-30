@@ -21,6 +21,7 @@ import gopi from './assets/gopichand.png'
 import tabletennis from './assets/tabletennis.jpg'
 import logo from './assets/logo.png'
 import hsbc from './assets/hsbc.png'
+import logo2 from './assets/logo 2.png'
 
 
 
@@ -129,7 +130,7 @@ function App() {
                 <div className="card-body pb-0">
                   <h6 className="fw-bold">Jun 6-7, 2025</h6>
                   <h1 className="mb-3">Bengaluru</h1>
-                  <p>Coming Soon : Mumbai & Delhi</p>
+                  <p></p>
                   <a href="https://96r19ce4.forms.app/sports-registration-form" target="_blank" rel="noopener noreferrer">
                     <button className="register-btn">Register Now</button>
                   </a>
@@ -151,13 +152,13 @@ function App() {
               Redefining Success Through Sport
             </h2>
             <p>
-            At a time when the startup world is grappling with stress, fatigue, and an always-on culture, Game On! offers a much-needed pause.
+            At a time when the startup world is grappling with stress, fatigue, and an always-on culture, Game On! offers a much needed pause. <br /> <br />
 
-It's not just a break from the hustle — it's a powerful reminder that true success is built on rhythm, resilience, and recovery.
+It is not just a break from the hustle. It is a clear reminder that lasting success comes from rhythm, resilience, and recovery. <br /> <br />
 
-Through the spirit of sport, we're bringing founders, investors, and ecosystem enablers back to the fundamentals: focus, teamwork, discipline, and sustainable performance.
+Through sport, we bring founders, investors, and enablers back to the essentials — focus, teamwork, discipline, and sustainable performance. <br /> <br />
 
-Game On! isn't about competition for its own sake — it's about redefining what it means to lead, build, and thrive in today's high-pressure world.
+Game On! is not about winning for the sake of it. It is about redefining what it means to lead, build, and grow in a world that rarely slows down.
             </p>
             
           </div>
@@ -169,9 +170,7 @@ Game On! isn't about competition for its own sake — it's about redefining what
                 <div className="card-body">
                   <h5 className="card-title">Beyond Business</h5>
                   <p className="card-text">
-                    Game On! brings the ecosystem together not for deal-making
-                    or networking, but for something more fundamental—shared
-                    energy, movement, and joy.
+                  Game On! brings the ecosystem together not for deal making or networking, but for something more fundamental: shared energy, movement and joy.
                   </p>
                 </div>
               </div>
@@ -203,7 +202,7 @@ Game On! isn't about competition for its own sake — it's about redefining what
           </div>
         </div>
         <div className="card testimoniCard  p-4 ">
-          <p>"Sport is one of the best teachers of leadership. It builds not just physical endurance, but clarity, discipline, and emotional strength—qualities every entrepreneur needs."</p>
+          <p>"Sport is one of the best teachers of leadership. It builds not just physical endurance but clarity, discipline and emotional strength. These are qualities every entrepreneur needs."</p>
           <h4>— Pullela Gopichand, Chief National Coach and Trustee Board Member at Endiya Partners</h4>
         </div>
       </div>
@@ -510,7 +509,8 @@ Pullela Gopichand brings decades of experience in building high-performance mind
         <div className="container">
           <div className="row">
             <div className="col-lg-4 col-md-4 col-sm-12">
-              <h3 className='pb-2'>Game On</h3>
+              <img className='logo2 pb-3' src={logo2} alt="Game On" />
+
               <p style={{fontSize: '20px'}}>A first-of-its-kind sports tournament built to promote wellbeing, resilience, and leadership within India's startup ecosystem.</p>
             <ul className='d-flex gap-3'>
               <li><a  href="https://www.instagram.com/gameonindia/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
