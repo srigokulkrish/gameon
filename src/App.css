@@ -622,6 +622,7 @@ h2 {
   color: var(--secondary-color);
   transition: color 0.3s ease;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .contactUs a:hover{
@@ -630,5 +631,5 @@ h2 {
 }
 
 .logo2{
-  width: 60%;
+  width: 40%;
 }

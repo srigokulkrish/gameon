@@ -508,18 +508,18 @@ Pullela Gopichand brings decades of experience in building high-performance mind
       <section id='footer'>
         <div className="container">
           <div className="row">
-            <div className="col-lg-4 col-md-4 col-sm-12">
-              <img className='logo2 pb-3' src={logo2} alt="Game On" />
+            <div style={{paddingRight: '4rem'}} className="col-lg-5 col-md-5 col-sm-12" >
+              <img className='logo2 pb-4' src={logo2} alt="Game On" />
 
               <p style={{fontSize: '20px'}}>A first-of-its-kind sports tournament built to promote wellbeing, resilience, and leadership within India's startup ecosystem.</p>
-            <ul className='d-flex gap-3'>
+            {/* <ul className='d-flex gap-3'>
               <li><a  href="https://www.instagram.com/gameonindia/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
               <li><a href="https://www.linkedin.com/company/gameon-india/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
               <li><a href="https://www.facebook.com/gameonindia/" target="_blank" rel="noopener noreferrer">Facebook</a></li>
-            </ul>
+            </ul> */}
 
             </div>
-            <div className="col-lg-4 col-md-4 col-sm-12">
+            <div className="col-lg-3 col-md-3 col-sm-12 text-cente">
               <h3 className='pb-2'>Quick Links</h3>
               <ul>
                 <li><a href="#aboutus">About</a></li>
@@ -530,7 +530,7 @@ Pullela Gopichand brings decades of experience in building high-performance mind
             </div>
             <div className="col-lg-4 col-md-4 col-sm-12 contactUs">
               <h3 className='pb-2'>Contact</h3>
-              <p>Email : <a href="mailto:gameon@endiya.com" >gameon@endiya.com</a></p>
+              <p>Email : <a href="mailto:gameon@endiya.com" >contactus@gameonevent.in </a></p>
               <p>Media : <a href="mailto:anuradha@moatglobal.com" >anuradha@moatglobal.com</a></p>
             </div>
           </div>
