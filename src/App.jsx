@@ -155,7 +155,7 @@ function App() {
 
 It is not just a break from the hustle. It is a clear reminder that lasting success comes from rhythm, resilience, and recovery. <br /> <br />
 
-Through sport, we bring founders, investors, and enablers back to the essentials — focus, teamwork, discipline, and sustainable performance. <br /> <br />
+Through sport, we bring startup ecosystem back to the essentials — focus, teamwork, discipline, and sustainable performance. <br /> <br />
 
 Game On! is not about winning for the sake of it. It is about redefining what it means to lead, build, and grow in a world that rarely slows down.
             </p>
@@ -224,7 +224,7 @@ Game On! is not about winning for the sake of it. It is about redefining what it
               <div className='benefit-item'>
                 <div className="benefit-content text-end">
                   <h4 className="title-benefit">Sustainable Performance</h4>
-                  <p className="description-benefit">Founders who balance work and recovery achieve true high performance.</p>
+                  <p className="description-benefit">People who balance work and recovery achieve true high performance.</p>
                 </div>
                 <div className="benefit-number"><span className="number wow zoomIn  animated" style={{visibility: "visible"}}>01</span></div>
               </div>
@@ -267,7 +267,7 @@ Game On! is not about winning for the sake of it. It is about redefining what it
 
                 <div className="benefit-content">
                   <h4 className="title-benefit">Competitive Advantage</h4>
-                  <p className="description-benefit">Companies led by balanced, resilient founders outperform those driven by burnout culture.</p>
+                  <p className="description-benefit">Companies led by balanced, resilient people outperform those driven by burnout culture.</p>
                 </div>
               </div>
             </div>
@@ -454,7 +454,7 @@ Game On! is not about winning for the sake of it. It is about redefining what it
               <h3 className='pb-2'>Endiya Partners</h3>
               <p>Endiya Partners is an early-stage venture capital firm focused on backing India's most promising product startups across Enterprise, Industrial Tech, and Healthcare. With deep domain expertise and extensive experience in entrepreneurship and operations, the Endiya team plays a crucial role in developing scalable businesses.
 
-Game On! reflects Endiya's belief that strong, healthy founders build stronger companies. Supporting founder wellbeing is a key part of the firm's approach, with health and balance seen as essential for long-term success.</p>
+Game On! reflects Endiya's belief that strong, healthy people build stronger companies. Supporting founder wellbeing is a key part of the firm's approach, with health and balance seen as essential for long-term success.</p>
            </div>
            <div className="col-12 col-md-6">
 
