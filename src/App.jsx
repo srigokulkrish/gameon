@@ -22,6 +22,7 @@ import tabletennis from './assets/tabletennis.jpg'
 import logo from './assets/logo.png'
 import hsbc from './assets/hsbc.png'
 import logo2 from './assets/logo 2.png'
+import tie from './assets/tie.jpg'
 
 
 
@@ -115,13 +116,11 @@ function App() {
               <div className="headrow">
                 <h1>GAME ON!</h1>
                 <p>
-                  A sports-driven well-being movement designed for India's
-                  startup ecosystem. Empowering founders and teams to stay
-                  active, healthy, and connected.
+                A sports-driven well-being movement designed for India's startup ecosystem. 
                 </p>
-                <a href="https://96r19ce4.forms.app/sports-registration-form" target="_blank" rel="noopener noreferrer">
+                {/* <a href="https://96r19ce4.forms.app/sports-registration-form" target="_blank" rel="noopener noreferrer">
                   <button className="register-btn">Register Now</button>
-                </a>
+                </a> */}
               </div>
             </div>
             <div className="col-12 col-md-6 col-lg-6 d-flex justify-content-center">
@@ -291,7 +290,7 @@ Game On! is not about winning for the sake of it. It is about redefining what it
                 <div className="card-body">
                   <h3 className="card-title pb-1">Curated Community</h3>
                   <p className="card-text">
-                  Limited to 200 participants from India's most promising startups and investment firms. Every interaction is an opportunity to connect with someone making a difference in the ecosystem.
+                  Limited to 200 members of the startup ecosystem. Every moment is designed to encourage authentic connections rooted in energy, trust and shared purpose.
                   </p>
                 </div>
               </div>
@@ -299,9 +298,9 @@ Game On! is not about winning for the sake of it. It is about redefining what it
             <div className="col-lg-3 col-md-6 col-sm-12 reveal delay-1">
               <div className="card">
                 <div className="card-body">
-                  <h3 className="card-title pb-1">Founder-First Design</h3>
+                  <h3 className="card-title pb-1">Designed for Real World Demands</h3>
                   <p className="card-text">
-                  Every aspect of Game On! is designed with the unique pressures of founder life in mind. Interact with peers who truly understand your journey—no explanation needed.
+                  Game On reflects the intensity of the startup ecosystem. It offers a blend of movement, mental reset and peer interaction to build clarity and resilience.
                   </p>
                 </div>
               </div>
@@ -309,9 +308,9 @@ Game On! is not about winning for the sake of it. It is about redefining what it
             <div className="col-lg-3 col-md-6 col-sm-12 reveal delay-2">
               <div className="card">
                 <div className="card-body">
-                  <h3 className="card-title pb-1">Wisdom Transfer</h3>
+                  <h3 className="card-title pb-1">On Court to Off Court Wisdom</h3>
                   <p className="card-text">
-                  Learn performance psychology techniques from elite athletes and coaches that translate directly to entrepreneurial challenges. These insights aren't available in typical business settings.
+                  Sport teaches what traditional work settings often overlook — focus under pressure, discipline and emotional strength. These are the very traits that fuel long term success across the startup ecosystem.
                   </p>
                 </div>
               </div>
@@ -319,9 +318,9 @@ Game On! is not about winning for the sake of it. It is about redefining what it
             <div className="col-lg-3 col-md-6 col-sm-12 reveal delay-3">
               <div className="card">
                 <div className="card-body">
-                  <h3 className="card-title pb-1">Legacy Building</h3>
+                  <h3 className="card-title pb-1">Creating Culture, Not Just Moments</h3>
                   <p className="card-text">
-                  Be part of establishing a new culture in India's startup ecosystem—one that values sustainable success and human flourishing alongside business metrics.
+                  Game On is more than a tournament. It is a movement to embed wellbeing, collaboration and sustainable performance into the culture of the startup ecosystem.
                   </p>
                 </div>
               </div>
@@ -337,7 +336,7 @@ Game On! is not about winning for the sake of it. It is about redefining what it
       <h2 className=" text-center py-2" style={{textTransform: 'uppercase'}}>
           Sports
         </h2>
-        <p className="text-center ">Game On! is carefully designed for founders who want to connect authentically while building resilience.</p>
+        <p className="text-center ">Each sport reflects the rhythm, pressure and collaboration of the startup ecosystem.</p>
         <div className="row g-4 pt-3 ">
             <div className="col-lg-4 col-md-6 col-sm-12 reveal">
               <div className="card ">
@@ -345,7 +344,7 @@ Game On! is not about winning for the sake of it. It is about redefining what it
                 <div className="card-body">
                   <h3 className="card-title pb-1">Badminton</h3>
                   <p className="card-text">
-                  Limited to 200 participants from India's most promising startups and investment firms. Every interaction is an opportunity to connect with someone making a difference in the ecosystem.
+                  Fast, precise and demanding, badminton cultivates clarity and composure under pressure. It mirrors the challenge of navigating complex decisions within the ecosystem.
                   </p>
                 </div>
               </div>
@@ -356,7 +355,7 @@ Game On! is not about winning for the sake of it. It is about redefining what it
               <div className="card-body">
                   <h3 className="card-title pb-1">Table Tennis</h3>
                   <p className="card-text">
-                  Table tennis develops hand-eye coordination, quick reflexes, and strategic thinking. Like startup pivots, it's about reading patterns and making split-second adjustments.
+                  A game of speed and strategy, table tennis builds sharp reflexes and adaptability. It reflects the fast changing nature of the ecosystem.
                   </p>
                 </div>
               </div>
@@ -367,7 +366,7 @@ Game On! is not about winning for the sake of it. It is about redefining what it
               <div className="card-body">
                   <h3 className="card-title pb-1">Box Cricket</h3>
                   <p className="card-text">
-                  A team sport that builds collaboration, communication, and leadership. Box cricket teaches resource allocation, role clarity, and the value of combined effort—just like scaling a company.
+                  A test of communication, strategy and trust. Box cricket captures the teamwork and collective rhythm that drive progress across the startup ecosystem.
                   </p>
                 </div>
               </div>
@@ -468,7 +467,7 @@ Pullela Gopichand brings decades of experience in building high-performance mind
          </div>
          <div className="infinite-container py-3">
           <div className="infinite-loop">
-            {[...Array(3)].flatMap(() => [endiya, gopi, laksh, hsbc]).map((img, idx) => (
+            {[...Array(3)].flatMap(() => [endiya, gopi, laksh, hsbc, tie]).map((img, idx) => (
               <div key={idx} className="loop-item">
                 <img src={img} className="img-fluid" alt="loop image" />
               </div>
@@ -494,12 +493,11 @@ Pullela Gopichand brings decades of experience in building high-performance mind
               Join the Movement
               </h2>
               <p className="text-white">Open to early and growth-stage startups, venture capital firms, accelerators, and incubators.
-                Registration is limited to ensure a quality experience. Sign up today!
-                Register Now</p>
-                {/* <a href="https://96r19ce4.forms.app/sports-registration-form" target="_blank" rel="noopener noreferrer">
+                Registration is limited to ensure a quality experience. Sign up today!</p>
+                <a href="https://96r19ce4.forms.app/sports-registration-form" target="_blank" rel="noopener noreferrer">
                   <button className="register-btn">Register Now</button>
-                </a> */}
-              <p className="text-white pt-4">For inquiries, please write to <a href="mailto:gameon@endiya.com" style={{color: 'white'}}>gameon@endiya.com</a></p>
+                </a> 
+              <p className="text-white pt-4">For inquiries, please write to <a href="mailto:contactus@gameonevent.in" style={{color: 'white'}}>contactus@gameonevent.in</a></p>
             </div>
           </div>
         </div>
