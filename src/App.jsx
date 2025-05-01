@@ -281,8 +281,7 @@ Game On! is not about winning for the sake of it. It is about redefining what it
             The Exclusive Experience
           </h2>
           <p className="text-center ">
-          Game On! is carefully designed for founders who want to connect authentically while building resilience.
-          </p>
+          A space for the startup ecosystem to recharge, reflect and reconnect through sport.</p>
 
           <div className="row g-4 pt-3 ">
             <div className="col-lg-3 col-md-6 col-sm-12 reveal">
