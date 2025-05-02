@@ -95,8 +95,7 @@ function App() {
               </li>
               <li className="nav-item">
                 <a
-                  className="nav-link btn px-3"
-                  style={{ borderRadius: '20px' }}
+                  className="nav-link"
                   href="https://96r19ce4.forms.app/sports-registration-form" target="_blank" rel="noopener noreferrer"
                 >
                   Register
