@@ -545,10 +545,9 @@ h2 {
 }
 
 .testimoniCard{
-  background-color: var(--primary-color);
-  border: 0px;
+  border: 2px solid var(--secondary-color);
   color: var(--secondary-color);
-  box-shadow: var(--secondary-color) 5px 5px;
+  box-shadow: var(--primary-color) 5px 5px;
 }
 
 #advertiser{
