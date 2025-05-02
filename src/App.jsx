@@ -138,7 +138,7 @@ function App() {
           </div>
         </div>
       </div>
-      <section className='aboutCont reveal fade-bottom' id='aboutus'>      
+      <section className='aboutCont' id='aboutus'>      
         <div className="container ">
         <div className="row">
           <div className="col-12 col-md-6 col-lg-6">
@@ -162,7 +162,7 @@ Game On! is not about winning for the sake of it. It is about redefining what it
             
           </div>
         </div>
-        <div className="cardSection">
+        <div className="cardSection reveal fade-up">
           <div className="row row-cols-1 row-cols-md-3 g-4">
             <div className="col">
               <div className="card">
