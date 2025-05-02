@@ -24,9 +24,6 @@ import hsbc from './assets/hsbc.png'
 import logo2 from './assets/logo 2.png'
 import tie from './assets/tie.jpg'
 
-
-
-
 function App() {
   useEffect(() => {
     function revealOnScroll() {
@@ -53,6 +50,14 @@ function App() {
     return () => window.removeEventListener('scroll', revealOnScroll);
   }, []);
 
+  // Function to close the navbar when a nav item is clicked
+  const closeNavbar = () => {
+    const navbarCollapse = document.getElementById('navbarNav');
+    if (navbarCollapse.classList.contains('show')) {
+      navbarCollapse.classList.remove('show');
+    }
+  };
+
   return (
     <>
             <nav className="navbar navbar-expand-lg navbar-light" id="mainnav">
@@ -74,29 +79,32 @@ function App() {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="#" onClick={closeNavbar}>
                   Home
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#aboutus">
+                <a className="nav-link" href="#aboutus" onClick={closeNavbar}>
                   About
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#sports">
+                <a className="nav-link" href="#sports" onClick={closeNavbar}>
                   Sports
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#schedule">
+                <a className="nav-link" href="#schedule" onClick={closeNavbar}>
                   Schedule
                 </a>
               </li>
               <li className="nav-item">
                 <a
                   className="nav-link"
-                  href="https://96r19ce4.forms.app/sports-registration-form" target="_blank" rel="noopener noreferrer"
+                  href="https://96r19ce4.forms.app/sports-registration-form" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  onClick={closeNavbar}
                 >
                   Register
                 </a>
