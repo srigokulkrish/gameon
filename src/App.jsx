@@ -74,7 +74,7 @@ function App() {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+                <a className="nav-link" href="#">
                   Home
                 </a>
               </li>
@@ -138,7 +138,8 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="container aboutCont py-4 reveal fade-bottom" id='aboutus'>
+      <section className='aboutCont reveal fade-bottom' id='aboutus'>      
+        <div className="container ">
         <div className="row">
           <div className="col-12 col-md-6 col-lg-6">
             <img src={aboutus} className="about-img" alt="About Us" />
@@ -203,7 +204,8 @@ Game On! is not about winning for the sake of it. It is about redefining what it
           <p>"Sport is one of the best teachers of leadership. It builds not just physical endurance but clarity, discipline and emotional strength. These are qualities every entrepreneur needs."</p>
           <h4>— Pullela Gopichand, Chief National Coach and Trustee Board Member at Endiya Partners</h4>
         </div>
-      </div>
+      </div></section>
+
 
       <div className="container-fluid benefits" id="movement">
         <div className="themeflat-container">
