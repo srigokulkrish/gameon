@@ -123,7 +123,7 @@ function App() {
               <div className="headrow">
                 <h1>GAME ON!</h1>
                 <p>
-                A sports-driven well-being movement designed for India's startup ecosystem. 
+                A sports-driven, well-being initiative for India’s startup ecosystem. 
                 </p>
                 {/* <a href="https://96r19ce4.forms.app/sports-registration-form" target="_blank" rel="noopener noreferrer">
                   <button className="register-btn">Register Now</button>
@@ -163,9 +163,7 @@ function App() {
 
 It is not just a break from the hustle. It is a clear reminder that lasting success comes from rhythm, resilience, and recovery. <br /> <br />
 
-Through sport, we bring startup ecosystem back to the essentials — focus, teamwork, discipline, and sustainable performance. <br /> <br />
-
-Game On! is not about winning for the sake of it. It is about redefining what it means to lead, build, and grow in a world that rarely slows down.
+Through sport, we refresh our ecosystem’s memory of high-performance ingredients: Focus, Teamwork, discipline and Consistency
             </p>
             
           </div>
@@ -177,7 +175,7 @@ Game On! is not about winning for the sake of it. It is about redefining what it
                 <div className="card-body">
                   <h5 className="card-title">Beyond Business</h5>
                   <p className="card-text">
-                  Game On! brings the ecosystem together not for deal making or networking, but for something more fundamental: shared energy, movement and joy.
+                  Unlike monotonous networking events, Game On! brings the ecosystem together for something more fundamental: shared energy, gamesmanship and joy.
                   </p>
                 </div>
               </div>
@@ -187,9 +185,7 @@ Game On! is not about winning for the sake of it. It is about redefining what it
                 <div className="card-body">
                   <h5 className="card-title">Mental Wellbeing</h5>
                   <p className="card-text">
-                    Build mental resilience and emotional strength through the
-                    discipline and focus that competitive sport naturally
-                    cultivates.
+                  Reconnect with your mental resilience and emotional strength through the discipline and focus that competitive sport naturally cultivates.
                   </p>
                 </div>
               </div>
