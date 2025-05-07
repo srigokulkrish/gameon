@@ -527,7 +527,7 @@ Pullela Gopichand brings decades of experience in building high-performance mind
                 <li><a href="#aboutus">About</a></li>
                 <li><a href="#sports">Sports</a></li>
                 <li><a href="#schedule">Schedule</a></li>
-                <li><a href="#joinMovement">Register</a></li>
+                <li><a href="https://96r19ce4.forms.app/gameonevent-team-registration" target="_blank" rel="noopener noreferrer">Register</a></li>
               </ul>
             </div>
             <div className="col-lg-4 col-md-4 col-sm-12 contactUs">
