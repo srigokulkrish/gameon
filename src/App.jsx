@@ -163,7 +163,7 @@ function App() {
 
 It is not just a break from the hustle. It is a clear reminder that lasting success comes from rhythm, resilience, and recovery. <br /> <br />
 
-Through sport, we refresh our ecosystem’s memory of high-performance ingredients: Focus, Teamwork, discipline and Consistency
+Through sport, we refresh our ecosystem’s memory of high-performance ingredients: Focus, Teamwork, Discipline and Consistency
             </p>
             
           </div>
