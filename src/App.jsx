@@ -101,7 +101,7 @@ function App() {
               <li className="nav-item">
                 <a
                   className="nav-link"
-                  href="https://96r19ce4.forms.app/sports-registration-form" 
+                  href="https://96r19ce4.forms.app/gameonevent-team-registration" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   onClick={closeNavbar}
@@ -125,7 +125,7 @@ function App() {
                 <p>
                 A sports-driven, well-being initiative for India’s startup ecosystem. 
                 </p>
-                {/* <a href="https://96r19ce4.forms.app/sports-registration-form" target="_blank" rel="noopener noreferrer">
+                {/* <a href="https://96r19ce4.forms.app/gameonevent-team-registration" target="_blank" rel="noopener noreferrer">
                   <button className="register-btn">Register Now</button>
                 </a> */}
               </div>
@@ -137,7 +137,7 @@ function App() {
                   <h6 className="fw-bold">Jun 6-7, 2025</h6>
                   <h1 className="mb-3">Bengaluru</h1>
                   <p></p>
-                  <a href="https://96r19ce4.forms.app/sports-registration-form" target="_blank" rel="noopener noreferrer">
+                  <a href="https://96r19ce4.forms.app/gameonevent-team-registration" target="_blank" rel="noopener noreferrer">
                     <button className="register-btn">Register Now</button>
                   </a>
                 </div>
@@ -498,7 +498,7 @@ Pullela Gopichand brings decades of experience in building high-performance mind
               </h2>
               <p className="text-white">Open to early and growth-stage startups, venture capital firms, accelerators, and incubators.
                 Registration is limited to ensure a quality experience. Sign up today!</p>
-                <a href="https://96r19ce4.forms.app/sports-registration-form" target="_blank" rel="noopener noreferrer">
+                <a href="https://96r19ce4.forms.app/gameonevent-team-registration" target="_blank" rel="noopener noreferrer">
                   <button className="register-btn">Register Now</button>
                 </a> 
               <p className="text-white pt-4">For inquiries, please write to <a href="mailto:contactus@gameonevent.in" style={{color: 'white'}}>contactus@gameonevent.in</a></p>
