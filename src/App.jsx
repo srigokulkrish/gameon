@@ -204,10 +204,10 @@ Through sport, we bring back the essentials: focus, teamwork, discipline, and co
         </div>
         <div className="card testimoniCard  p-4 ">
           <div className="row">
-            <div className="col-2">
+            <div className="col-12 col-md-2">
              <img className='img-fluid' style={{ width: '200px',borderRadius: '8px' }} src={gopichand} alt="" />
             </div>
-            <div className="col-10">
+            <div className="col-12 col-md-10 pt-sm-3 pt-3">
               <p>"Sport is one of the best teachers of leadership. It builds not just physical endurance but clarity, discipline and emotional strength. These are qualities every entrepreneur needs."</p>
               <h4>— Pullela Gopichand, Chief National Coach and Trustee Board Member - Endiya Partners</h4>
             </div>
@@ -477,10 +477,10 @@ Pullela Gopichand brings decades of experience in building high-performance mind
         </div>
         <div className="card testimoniCard p-4 ">
           <div className="row">
-            <div className="col-2">
+            <div className="col-12 col-md-2">
               <img className='img-fluid' style={{ width: '200px',borderRadius: '8px' }} src={satish} alt="" />
             </div>
-            <div className="col-10">
+            <div className="col-12 col-md-10 pt-3  ">
             <p>"Game On! is how we bring the ecosystem together — not just to participate, but to reconnect. Whether on the court or in the company, strong teams grow through shared rhythm and purpose."</p>
             <h4>— Sateesh Andra, Founding Partner, Endiya Partners</h4>
           </div>
