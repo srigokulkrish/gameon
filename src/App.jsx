@@ -24,6 +24,8 @@ import hsbc from './assets/hsbc.png'
 import logo2 from './assets/logo 2.png'
 import tie from './assets/tie.jpg'
 import traxn from './assets/traxn.png'
+import gopichand from './assets/Gopichand.jpg'
+import satish from './assets/satish.png'
 
 function App() {
   useEffect(() => {
@@ -201,8 +203,15 @@ Through sport, we bring back the essentials: focus, teamwork, discipline, and co
           </div>
         </div>
         <div className="card testimoniCard  p-4 ">
-          <p>"Sport is one of the best teachers of leadership. It builds not just physical endurance but clarity, discipline and emotional strength. These are qualities every entrepreneur needs."</p>
-          <h4>— Pullela Gopichand, Chief National Coach and Trustee Board Member - Endiya Partners</h4>
+          <div className="row">
+            <div className="col-2">
+             <img className='img-fluid' style={{ width: '200px',borderRadius: '8px' }} src={gopichand} alt="" />
+            </div>
+            <div className="col-10">
+              <p>"Sport is one of the best teachers of leadership. It builds not just physical endurance but clarity, discipline and emotional strength. These are qualities every entrepreneur needs."</p>
+              <h4>— Pullela Gopichand, Chief National Coach and Trustee Board Member - Endiya Partners</h4>
+            </div>
+          </div>
         </div>
       </div></section>
 
@@ -363,7 +372,7 @@ Through sport, we bring back the essentials: focus, teamwork, discipline, and co
                 </div>
               </div>
             </div>
-            <p className="text-dark pt-4 text-italic">🛑 Note: All events are team-based. No single entries.</p>
+            <p className="text-dark pt-4 text-italic"> Note: All events are team-based. No single entries.</p>
           </div>
       </div>
 
@@ -467,8 +476,15 @@ Pullela Gopichand brings decades of experience in building high-performance mind
           </div>
         </div>
         <div className="card testimoniCard p-4 ">
-          <p>"Game On! is how we bring the ecosystem together — not just to participate, but to reconnect. Whether on the court or in the company, strong teams grow through shared rhythm and purpose."</p>
-          <h4>— Sateesh Andra, Founding Partner, Endiya Partners</h4>
+          <div className="row">
+            <div className="col-2">
+              <img className='img-fluid' style={{ width: '200px',borderRadius: '8px' }} src={satish} alt="" />
+            </div>
+            <div className="col-10">
+            <p>"Game On! is how we bring the ecosystem together — not just to participate, but to reconnect. Whether on the court or in the company, strong teams grow through shared rhythm and purpose."</p>
+            <h4>— Sateesh Andra, Founding Partner, Endiya Partners</h4>
+          </div>
+          </div>
         </div>
       </div>
 
@@ -484,7 +500,7 @@ Pullela Gopichand brings decades of experience in building high-performance mind
               <h2 className=" py-2 text-white" style={{textTransform: 'uppercase'}}>
               Join the Movement
               </h2>
-              <h5>
+              <h5 className="py-2">
                Eligibility criteria<br />
               </h5>
               <div>
@@ -495,7 +511,7 @@ Pullela Gopichand brings decades of experience in building high-performance mind
                 <li>Accelerators & incubators teams</li>
                 <li>Ecosystem enablers</li>
               </ul>
-              <p className="text-white pt-4 text-italic">🛑 Note : Each registration must be for a team of 2–4 players (no individual entries).
+              <p className="text-white pt-4 text-italic">Note : Each registration must be for a team of 2–4 players (no individual entries).
               </p>
               </div>
               
