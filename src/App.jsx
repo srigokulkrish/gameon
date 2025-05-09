@@ -468,7 +468,7 @@ Pullela Gopichand brings decades of experience in building high-performance mind
          </div>
          <div className="infinite-container py-3">
           <div className="infinite-loop">
-            {[...Array(3)].flatMap(() => [endiya, gopi, laksh, hsbc, tie, traxn]).map((img, idx) => (
+            {[...Array(3)].flatMap(() => [ hsbc, endiya, tie, traxn, gopi,  laksh,]).map((img, idx) => (
               <div key={idx} className="loop-item">
                 <img src={img} className="img-fluid" alt="loop image" />
               </div>
@@ -504,7 +504,7 @@ Pullela Gopichand brings decades of experience in building high-performance mind
                Eligibility criteria<br />
               </h5>
               <div>
-              <p className='p-0 m-0'>Open to</p>
+              <p className='p-0 m-0'>Open to:</p>
               <ul>
                 <li>Startup founders & leadership teams</li>
                 <li>VCs, angel investors</li>
