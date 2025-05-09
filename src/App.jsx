@@ -23,6 +23,7 @@ import logo from './assets/logo.png'
 import hsbc from './assets/hsbc.png'
 import logo2 from './assets/logo 2.png'
 import tie from './assets/tie.jpg'
+import traxn from './assets/traxn.png'
 
 function App() {
   useEffect(() => {
@@ -123,7 +124,7 @@ function App() {
               <div className="headrow">
                 <h1>GAME ON!</h1>
                 <p>
-                A sports-driven, well-being initiative for India’s startup ecosystem. 
+                A sports and wellbeing experience designed for India's startup ecosystem. 
                 </p>
                 {/* <a href="https://96r19ce4.forms.app/gameonevent-team-registration" target="_blank" rel="noopener noreferrer">
                   <button className="register-btn">Register Now</button>
@@ -136,7 +137,7 @@ function App() {
                 <div className="card-body pb-0">
                   <h6 className="fw-bold">Jun 6-7, 2025</h6>
                   <h1 className="mb-3">Bengaluru</h1>
-                  <p></p>
+                  <p>Entry capped at 200. Find your teammate and register now.</p>
                   <a href="https://96r19ce4.forms.app/gameonevent-team-registration" target="_blank" rel="noopener noreferrer">
                     <button className="register-btn">Register Now</button>
                   </a>
@@ -156,15 +157,14 @@ function App() {
             
             <h4>About Us</h4>
             <h2 className="py-2">
-              Redefining Success Through Sport
+            Redefining Success Through Sport
             </h2>
             <p>
-            At a time when the startup world is grappling with stress, fatigue, and an always-on culture, Game On! offers a much needed pause. <br /> <br />
+            The startup world moves fast — but real progress comes from rhythm, reflection, and energy.
+Game On! is a space to recharge, reconnect, and rediscover the qualities that fuel sustainable leadership. <br /> <br />
+Through sport, we bring back the essentials: focus, teamwork, discipline, and consistency.
 
-It is not just a break from the hustle. It is a clear reminder that lasting success comes from rhythm, resilience, and recovery. <br /> <br />
-
-Through sport, we refresh our ecosystem’s memory of high-performance ingredients: Focus, Teamwork, Discipline and Consistency
-            </p>
+                   </p>
             
           </div>
         </div>
@@ -175,8 +175,7 @@ Through sport, we refresh our ecosystem’s memory of high-performance ingredien
                 <div className="card-body">
                   <h5 className="card-title">Beyond Business</h5>
                   <p className="card-text">
-                  Unlike monotonous networking events, Game On! brings the ecosystem together for something more fundamental: shared energy, gamesmanship and joy.
-                  </p>
+                  Game On! isn’t another industry meet-up. It brings the community together around shared energy, movement, and joyful participation.                  </p>
                 </div>
               </div>
             </div>
@@ -185,8 +184,7 @@ Through sport, we refresh our ecosystem’s memory of high-performance ingredien
                 <div className="card-body">
                   <h5 className="card-title">Mental Wellbeing</h5>
                   <p className="card-text">
-                  Reconnect with your mental resilience and emotional strength through the discipline and focus that competitive sport naturally cultivates.
-                  </p>
+                  Sport naturally builds focus and emotional strength — helping leaders stay clear, calm, and purposeful in everything they do.                  </p>
                 </div>
               </div>
             </div>
@@ -195,9 +193,7 @@ Through sport, we refresh our ecosystem’s memory of high-performance ingredien
                 <div className="card-body">
                   <h5 className="card-title">Community Connection</h5>
                   <p className="card-text">
-                    Form authentic relationships with peers, investors, and
-                    enablers in a non-transactional environment where shared
-                    values take center stage.
+                  Build real relationships with peers, investors, and enablers in an open, collaborative space designed for shared growth.
                   </p>
                 </div>
               </div>
@@ -205,8 +201,8 @@ Through sport, we refresh our ecosystem’s memory of high-performance ingredien
           </div>
         </div>
         <div className="card testimoniCard  p-4 ">
-          <p>"Sport is one of the best teachers of leadership. It builds not just physical endurance but clarity, discipline and emotional strength. These are qualities every entrepreneur needs."</p>
-          <h4>— Pullela Gopichand, Chief National Coach and Trustee Board Member at Endiya Partners</h4>
+          <p>"Sport is one of the best teachers of leadership. It builds not just physical endurance but clarity, discipline and emotional strength. These are qualities every entrepreneur needs."</p>
+          <h4>— Pullela Gopichand, Chief National Coach and Trustee Board Member - Endiya Partners</h4>
         </div>
       </div></section>
 
@@ -220,23 +216,21 @@ Through sport, we refresh our ecosystem’s memory of high-performance ingredien
             Game On! is more than an event
           </h2>
           <p className="text-center text-white">
-            It's a movement redefining how we
-            approach entrepreneurship and wellbeing in India's startup
-            ecosystem.
+          It’s a movement to reimagine how we build — with clarity, collaboration, and wellbeing at the centre.
           </p>
           <div className="row text-white">
             <div className="col-md-4 benefit-on-left">
               <div className='benefit-item'>
                 <div className="benefit-content text-end">
                   <h4 className="title-benefit">Sustainable Performance</h4>
-                  <p className="description-benefit">People who balance work and recovery achieve true high performance.</p>
+                  <p className="description-benefit">Balancing effort with recovery leads to lasting impact.</p>
                 </div>
                 <div className="benefit-number"><span className="number wow zoomIn  animated" style={{visibility: "visible"}}>01</span></div>
               </div>
               <div className='benefit-item'>
               <div className="benefit-content text-end">
                 <h4 className="title-benefit">Holistic Leadership</h4>
-                <p className="description-benefit">Developing physical, mental, and emotional potential accelerates growth.</p>
+                <p className="description-benefit"> Physical, mental, and emotional strength helps leaders grow in every direction.</p>
               </div>
               <div className="benefit-number"><span className="number wow zoomIn  animated" style={{visibility: "visible"}}>02</span></div>
 
@@ -263,16 +257,16 @@ Through sport, we refresh our ecosystem’s memory of high-performance ingredien
               <div className="benefit-number"><span className="number wow zoomIn  animated" style={{visibility: "visible"}}>03</span></div>
 
                 <div className="benefit-content">
-                  <h4 className="title-benefit">Collective Resilience</h4>
-                  <p className="description-benefit">Sharing challenges builds collective wisdom and support.</p>
+                  <h4 className="title-benefit">Collective Wisdom</h4>
+                  <p className="description-benefit">When people connect beyond roles, they create lasting insights and support.</p>
                 </div>
               </div>
               <div className="benefit-item">
               <div className="benefit-number"><span className="number wow zoomIn  animated" style={{visibility: "visible"}}>04</span></div>
 
                 <div className="benefit-content">
-                  <h4 className="title-benefit">Competitive Advantage</h4>
-                  <p className="description-benefit">Companies led by balanced, resilient people outperform those driven by burnout culture.</p>
+                  <h4 className="title-benefit">Long-Term Advantage</h4>
+                  <p className="description-benefit"> Energised, balanced teams achieve more — together.</p>
                 </div>
               </div>
             </div>
@@ -294,7 +288,7 @@ Through sport, we refresh our ecosystem’s memory of high-performance ingredien
                 <div className="card-body">
                   <h3 className="card-title pb-1">Curated Community</h3>
                   <p className="card-text">
-                  Limited to 200 members of the startup ecosystem. Every moment is designed to encourage authentic connections rooted in energy, trust and shared purpose.
+                  Limited to 200 entries from across the startup ecosystem. Every moment is designed for genuine connection and shared intent.
                   </p>
                 </div>
               </div>
@@ -302,20 +296,18 @@ Through sport, we refresh our ecosystem’s memory of high-performance ingredien
             <div className="col-lg-3 col-md-6 col-sm-12 reveal delay-1">
               <div className="card">
                 <div className="card-body">
-                  <h3 className="card-title pb-1">Designed for Real World Demands</h3>
+                  <h3 className="card-title pb-1">Designed for Today’s Builders</h3>
                   <p className="card-text">
-                  Game On reflects the intensity of the startup ecosystem. It offers a blend of movement, mental reset and peer interaction to build clarity and resilience.
-                  </p>
+                  Game On is aligned with the pace and mindset of startups — combining play, learning, and renewal in a way that feels natural and energising.                  </p>
                 </div>
               </div>
             </div>
             <div className="col-lg-3 col-md-6 col-sm-12 reveal delay-2">
               <div className="card">
                 <div className="card-body">
-                  <h3 className="card-title pb-1">On Court to Off Court Wisdom</h3>
+                  <h3 className="card-title pb-1">From Court to Company</h3>
                   <p className="card-text">
-                  Sport teaches what traditional work settings often overlook — focus under pressure, discipline and emotional strength. These are the very traits that fuel long term success across the startup ecosystem.
-                  </p>
+                  Sport teaches what daily routines often miss — presence, adaptability, and confidence. These qualities support stronger leadership across all contexts.                  </p>
                 </div>
               </div>
             </div>
@@ -324,8 +316,7 @@ Through sport, we refresh our ecosystem’s memory of high-performance ingredien
                 <div className="card-body">
                   <h3 className="card-title pb-1">Creating Culture, Not Just Moments</h3>
                   <p className="card-text">
-                  Game On is more than a tournament. It is a movement to embed wellbeing, collaboration and sustainable performance into the culture of the startup ecosystem.
-                  </p>
+                  Game On is a signal. That clarity, wellbeing, and teamwork are essential, not optional.                  </p>
                 </div>
               </div>
             </div>
@@ -348,8 +339,7 @@ Through sport, we refresh our ecosystem’s memory of high-performance ingredien
                 <div className="card-body">
                   <h3 className="card-title pb-1">Badminton</h3>
                   <p className="card-text">
-                  Fast, precise and demanding, badminton cultivates clarity and composure under pressure. It mirrors the challenge of navigating complex decisions within the ecosystem.
-                  </p>
+                  Fast-paced and focused — a great way to sharpen coordination, clarity and movement.                  </p>
                 </div>
               </div>
             </div>
@@ -359,8 +349,7 @@ Through sport, we refresh our ecosystem’s memory of high-performance ingredien
               <div className="card-body">
                   <h3 className="card-title pb-1">Table Tennis</h3>
                   <p className="card-text">
-                  A game of speed and strategy, table tennis builds sharp reflexes and adaptability. It reflects the fast changing nature of the ecosystem.
-                  </p>
+                  Quick thinking and reflexes meet flow and strategy. Perfect for those who love to adapt in real time.                  </p>
                 </div>
               </div>
             </div>
@@ -370,12 +359,11 @@ Through sport, we refresh our ecosystem’s memory of high-performance ingredien
               <div className="card-body">
                   <h3 className="card-title pb-1">Box Cricket</h3>
                   <p className="card-text">
-                  A test of communication, strategy and trust. Box cricket captures the teamwork and collective rhythm that drive progress across the startup ecosystem.
-                  </p>
+                  Fun, fast, and collaborative. This game brings rhythm, teamwork and energy together beautifully.                  </p>
                 </div>
               </div>
             </div>
-
+            <p className="text-dark pt-4 text-italic">🛑 Note: All events are team-based. No single entries.</p>
           </div>
       </div>
 
@@ -471,7 +459,7 @@ Pullela Gopichand brings decades of experience in building high-performance mind
          </div>
          <div className="infinite-container py-3">
           <div className="infinite-loop">
-            {[...Array(3)].flatMap(() => [endiya, gopi, laksh, hsbc, tie]).map((img, idx) => (
+            {[...Array(3)].flatMap(() => [endiya, gopi, laksh, hsbc, tie, traxn]).map((img, idx) => (
               <div key={idx} className="loop-item">
                 <img src={img} className="img-fluid" alt="loop image" />
               </div>
@@ -479,7 +467,7 @@ Pullela Gopichand brings decades of experience in building high-performance mind
           </div>
         </div>
         <div className="card testimoniCard p-4 ">
-          <p>"Startup founders operate in high-pressure environments with little downtime. Game On! is a way to bring our ecosystem together, not just to compete, but to connect. Whether on the court or in the boardroom, strong teams thrive on rhythm, trust, and shared experience."</p>
+          <p>"Game On! is how we bring the ecosystem together — not just to participate, but to reconnect. Whether on the court or in the company, strong teams grow through shared rhythm and purpose."</p>
           <h4>— Sateesh Andra, Founding Partner, Endiya Partners</h4>
         </div>
       </div>
@@ -496,8 +484,22 @@ Pullela Gopichand brings decades of experience in building high-performance mind
               <h2 className=" py-2 text-white" style={{textTransform: 'uppercase'}}>
               Join the Movement
               </h2>
-              <p className="text-white">Open to early and growth-stage startups, venture capital firms, accelerators, and incubators.
-                Registration is limited to ensure a quality experience. Sign up today!</p>
+              <h5>
+               Eligibility criteria<br />
+              </h5>
+              <div>
+              <p className='p-0 m-0'>Open to</p>
+              <ul>
+                <li>Startup founders & leadership teams</li>
+                <li>VCs, angel investors</li>
+                <li>Accelerators & incubators teams</li>
+                <li>Ecosystem enablers</li>
+              </ul>
+              <p className="text-white pt-4 text-italic">🛑 Note : Each registration must be for a team of 2–4 players (no individual entries).
+              </p>
+              </div>
+              
+              
                 <a href="https://96r19ce4.forms.app/gameonevent-team-registration" target="_blank" rel="noopener noreferrer">
                   <button className="register-btn">Register Now</button>
                 </a> 

@@ -652,3 +652,8 @@ h2 {
 .logo2{
   width: 40%;
 }
+
+.text-italic{
+  font-style: italic;
+
+}
