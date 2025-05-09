@@ -493,10 +493,10 @@ Pullela Gopichand brings decades of experience in building high-performance mind
       <section id='advertiser'>
         <div className="container">
             <div className="row">
-            <div className="col-12 col-md-5">
+            <div className="col-12 col-md-6 col-sm-12">
             <img src={aboutus} style={{maxWidth: '100%'}} alt="" />
           </div>
-          <div className="col-12 col-md-7 pt-sm-4">
+          <div className="col-12 col-md-6 col-sm-12 pt-sm-4">
               <h2 className=" py-2 text-white" style={{textTransform: 'uppercase'}}>
               Join the Movement
               </h2>
