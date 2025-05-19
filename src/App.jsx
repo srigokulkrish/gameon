@@ -137,7 +137,7 @@ function App() {
               <div className="card headcard p-3">
                 <img src={tabletennis} className="card-img-top" alt="Game On" />
                 <div className="card-body pb-0">
-                  <h6 className="fw-bold">Jun 6-7, 2025</h6>
+                  <h6 className="fw-bold">Jun 20-21, 2025</h6>
                   <h1 className="mb-3">Bengaluru</h1>
                   <p>Entry capped at 200. Find your teammate and register now.</p>
                   <a href="https://96r19ce4.forms.app/gameonevent-team-registration" target="_blank" rel="noopener noreferrer">
@@ -383,9 +383,9 @@ Through sport, we bring back the essentials: focus, teamwork, discipline, and co
         <h2 className=" text-center py-2 text-white" style={{textTransform: 'uppercase'}}>
           Event Schedule
         </h2>
-        <p className="text-center text-white">Bengaluru Edition: June 6-7, 2025 at Lakshyan Academy of Sports</p>
+        <p className="text-center text-white">Bengaluru Edition: June 20-21, 2025 at Lakshyan Academy of Sports</p>
 
-        <h3 className="text-white py-2">Day 1 : Friday, June 6</h3>
+        <h3 className="text-white py-2">Day 1 : Friday, June 20</h3>
 
         <table className="table table-bordered table-dark">
         <thead>
@@ -413,7 +413,7 @@ Through sport, we bring back the essentials: focus, teamwork, discipline, and co
           </tr>
         </tbody>
       </table>
-      <h3 className="text-white py-3">Day 2 : Saturday, June 7</h3>
+      <h3 className="text-white py-3">Day 2 : Saturday, June 21</h3>
 
       <table className="table table-bordered table-dark ">
       <thead>
