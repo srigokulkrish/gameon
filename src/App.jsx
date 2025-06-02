@@ -425,6 +425,11 @@ Through sport, we bring back the essentials: focus, teamwork, discipline, and co
       </thead>
       <tbody>
         <tr>
+          <td data-label="Time">9:00 - 10:00 PM</td>
+          <td data-label="Activity">Registration, Kit & Inauguration</td>
+          <td data-label="Venue">Reception Area</td>
+        </tr>
+        <tr>
           <td data-label="Time">10:00 - 6:00 PM</td>
           <td data-label="Activity">Tournament Matches (All Sports)</td>
           <td data-label="Venue">Respective Courts</td>
