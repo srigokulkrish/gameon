@@ -26,6 +26,9 @@ import tie from './assets/tie.jpg'
 import traxn from './assets/traxn.png'
 import gopichand from './assets/Gopichand.jpg'
 import satish from './assets/satish.png'
+import awfis from './assets/awfis.jpg'
+import gamt from './assets/gamt.png'
+import inqui from './assets/inqui.png'
 
 function App() {
   useEffect(() => {
@@ -137,7 +140,7 @@ function App() {
               <div className="card headcard p-3">
                 <img src={tabletennis} className="card-img-top" alt="Game On" />
                 <div className="card-body pb-0">
-                  <h6 className="fw-bold">Jun 21, 2025</h6>
+                  <h6 className="fw-bold">June 21, 2025</h6>
                   <h1 className="mb-3">Bengaluru</h1>
                   <p>Entry capped at 200. Find your teammate and register now.</p>
                   <a href="https://96r19ce4.forms.app/gameonevent-team-registration" target="_blank" rel="noopener noreferrer">
@@ -426,7 +429,7 @@ Through sport, we bring back the essentials: focus, teamwork, discipline, and co
       <tbody>
         <tr>
           <td data-label="Time">9:00 - 10:00 PM</td>
-          <td data-label="Activity">Registration, Kit & Inauguration</td>
+          <td data-label="Activity">Registration, Kit collection & Inauguration</td>
           <td data-label="Venue">Reception Area</td>
         </tr>
         <tr>
@@ -435,7 +438,7 @@ Through sport, we bring back the essentials: focus, teamwork, discipline, and co
           <td data-label="Venue">Respective Courts</td>
         </tr>
         <tr>
-          <td data-label="Time">5:00 - 7:45 PM</td>
+          <td data-label="Time">5:00 - 6.00 PM</td>
           <td data-label="Activity">Keynote & Media Interactions</td>
           <td data-label="Venue">Multipurpose Hall</td>
         </tr>
@@ -473,7 +476,7 @@ Pullela Gopichand brings decades of experience in building high-performance mind
          </div>
          <div className="infinite-container py-3">
           <div className="infinite-loop">
-            {[...Array(3)].flatMap(() => [ hsbc, endiya, tie, traxn, gopi,  laksh,]).map((img, idx) => (
+            {[...Array(3)].flatMap(() => [ endiya, hsbc, tie, traxn, gopi, laksh, awfis,gamt, inqui ]).map((img, idx) => (
               <div key={idx} className="loop-item">
                 <img src={img} className="img-fluid" alt="loop image" />
               </div>
