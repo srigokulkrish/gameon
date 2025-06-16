@@ -20,7 +20,7 @@ import endiya from './assets/Endiya.png'
 import gopi from './assets/gopichand.png'
 import tabletennis from './assets/tabletennis.jpg'
 import logo from './assets/logo.png'
-import hsbc from './assets/hsbc.png'
+
 import logo2 from './assets/logo 2.png'
 import tie from './assets/tie.jpg'
 import traxn from './assets/traxn.png'
@@ -476,7 +476,7 @@ Pullela Gopichand brings decades of experience in building high-performance mind
          </div>
          <div className="infinite-container py-3">
           <div className="infinite-loop">
-            {[...Array(3)].flatMap(() => [ endiya, hsbc, tie, traxn, gopi, laksh, awfis,gamt, inqui ]).map((img, idx) => (
+            {[...Array(3)].flatMap(() => [ endiya, tie, traxn, gopi, laksh, awfis,gamt, inqui ]).map((img, idx) => (
               <div key={idx} className="loop-item">
                 <img src={img} className="img-fluid" alt="loop image" />
               </div>
