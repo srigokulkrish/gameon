@@ -433,17 +433,17 @@ Through sport, we bring back the essentials: focus, teamwork, discipline, and co
           <td data-label="Venue">Reception Area</td>
         </tr>
         <tr>
-          <td data-label="Time">10:00 - 6:00 PM</td>
+          <td data-label="Time">10:00 - 4:00 PM</td>
           <td data-label="Activity">Tournament Matches (All Sports)</td>
           <td data-label="Venue">Respective Courts</td>
         </tr>
         <tr>
-          <td data-label="Time">5:00 - 6.00 PM</td>
+          <td data-label="Time">4:00 - 5.00 PM</td>
           <td data-label="Activity">Keynote & Media Interactions</td>
           <td data-label="Venue">Multipurpose Hall</td>
         </tr>
         <tr>
-        <td data-label="Time">6:00 - 7:00 PM</td>
+        <td data-label="Time">5:00 - 6:00 PM</td>
           <td data-label="Activity">Award Ceremony & Closing</td>
           <td data-label="Venue">Main Court</td>
         </tr>
