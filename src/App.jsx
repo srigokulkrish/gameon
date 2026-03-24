@@ -20,7 +20,6 @@ import endiya from './assets/Endiya.png'
 import gopi from './assets/gopichand.png'
 import tabletennis from './assets/tabletennis.jpg'
 import logo from './assets/logo.png'
-
 import logo2 from './assets/logo 2.png'
 import tie from './assets/tie.jpg'
 import traxn from './assets/traxn.png'
@@ -29,6 +28,30 @@ import satish from './assets/satish.png'
 import awfis from './assets/awfis.jpg'
 import gamt from './assets/gamt.png'
 import inqui from './assets/inqui.png'
+import AC9I9029 from './assets/AC9I9029.JPG';
+import AC9I8404 from './assets/AC9I8404.JPG';
+import AC9I9048 from './assets/AC9I9048.JPG';
+import AC9I9094 from './assets/AC9I9094.JPG';
+import AC9I9158 from './assets/AC9I9158.JPG';
+import AC9I9228 from './assets/AC9I9228.JPG';
+import AC9I9298 from './assets/AC9I9298.JPG';
+import AC9I9322 from './assets/AC9I9322.JPG';
+import AC9I8327Copy from './assets/AC9I8327 - Copy.JPG';
+import AC9I8398 from './assets/AC9I8398.JPG';
+import AC9I8409 from './assets/AC9I8409.JPG';
+import AC9I8540Copy from './assets/AC9I8540 - Copy.JPG';
+import AC9I8806 from './assets/AC9I8806.JPG';
+import AC9I8911 from './assets/AC9I8911.JPG';
+import AC9I8931 from './assets/AC9I8931.JPG';
+import AC9I9019 from './assets/AC9I9019.JPG';
+import AC9I8327 from './assets/AC9I8327.JPG';
+import AC9I8679 from './assets/AC9I8679.JPG';
+import AC9I9008 from './assets/AC9I9008.JPG';
+import AC9I9044 from './assets/AC9I9044.JPG';
+import AC9I9059 from './assets/AC9I9059.JPG';
+import AC9I9070 from './assets/AC9I9070.JPG';
+import AC9I9167 from './assets/AC9I9167.JPG';
+
 
 function App() {
   useEffect(() => {
@@ -180,7 +203,7 @@ Through sport, we bring back the essentials: focus, teamwork, discipline, and co
                 <div className="card-body">
                   <h5 className="card-title">Beyond Business</h5>
                   <p className="card-text">
-                  Game On! isn’t another industry meet-up. It brings the community together around shared energy, movement, and joyful participation.                  </p>
+                  Game On! isn't another industry meet-up. It brings the community together around shared energy, movement, and joyful participation.                  </p>
                 </div>
               </div>
             </div>
@@ -228,7 +251,7 @@ Through sport, we bring back the essentials: focus, teamwork, discipline, and co
             Game On! is more than an event
           </h2>
           <p className="text-center text-white">
-          It’s a movement to reimagine how we build — with clarity, collaboration, and wellbeing at the centre.
+          It's a movement to reimagine how we build — with clarity, collaboration, and wellbeing at the centre.
           </p>
           <div className="row text-white">
             <div className="col-md-4 benefit-on-left">
@@ -308,7 +331,7 @@ Through sport, we bring back the essentials: focus, teamwork, discipline, and co
             <div className="col-lg-3 col-md-6 col-sm-12 reveal delay-1">
               <div className="card">
                 <div className="card-body">
-                  <h3 className="card-title pb-1">Designed for Today’s Builders</h3>
+                  <h3 className="card-title pb-1">Designed for Today's Builders</h3>
                   <p className="card-text">
                   Game On is aligned with the pace and mindset of startups — combining play, learning, and renewal in a way that feels natural and energising.                  </p>
                 </div>
@@ -430,7 +453,7 @@ Through sport, we bring back the essentials: focus, teamwork, discipline, and co
         <tr>
           <td data-label="Time">9:00 - 10:00 PM</td>
           <td data-label="Activity">Registration, Kit collection & Inauguration</td>
-          <td data-label="Venue">Reception Area</td>
+          <td data-label="Venue">Reception Area</td>
         </tr>
         <tr>
           <td data-label="Time">10:00 - 4:00 PM</td>
@@ -492,6 +515,18 @@ Pullela Gopichand brings decades of experience in building high-performance mind
             <p>"Game On! is how we bring the ecosystem together — not just to participate, but to reconnect. Whether on the court or in the company, strong teams grow through shared rhythm and purpose."</p>
             <h4>— Sateesh Andra, Founding Partner, Endiya Partners</h4>
           </div>
+          </div>
+        </div>
+        <div className="infinite-container py-3 eventImages">
+          <div className="infinite-loop">
+            {[...Array(3)].flatMap(() => [ AC9I9029, AC9I8404, AC9I9048, AC9I9094, AC9I9158, AC9I9228,
+  AC9I9298, AC9I9322, AC9I8327Copy, AC9I8398, AC9I8409, AC9I8540Copy,
+  AC9I8806, AC9I8911, AC9I8931, AC9I9019, AC9I8327, AC9I8679,
+  AC9I9008, AC9I9044, AC9I9059, AC9I9070, AC9I9167 ]).map((img, idx) => (
+              <div key={idx} className="loop-item">
+                <img src={img} className="img img-fluid" alt="loop image" />
+              </div>
+            ))}
           </div>
         </div>
       </div>

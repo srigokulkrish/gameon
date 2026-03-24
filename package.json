@@ -7,12 +7,17 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "netlify:build": "netlify build",
+    "netlify:deploy": "netlify deploy --build --dir=dist",
+    "netlify:deploy-prod": "netlify deploy --build --prod --dir=dist"
   },
   "dependencies": {
     "bootstrap": "^5.3.5",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-slick": "^0.30.3",
+    "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.22.0",
